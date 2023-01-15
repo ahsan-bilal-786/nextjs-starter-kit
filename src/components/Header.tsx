@@ -7,7 +7,7 @@ const Header = () => {
 
 
       <div className="flex-none w-56 flex flex-row items-center">
-        <Img src="/img/logo.png" width={24} height={24} className="w-10 flex-none" />
+        <Img src="/img/logo.png" width={24} height={24} className="w-10 flex-none" alt="Logo" />
         <strong className="capitalize ml-1 flex-1">cleopatra</strong>
 
         <button id="sliderBtn" className="flex-none text-right text-gray-900 hidden md:block">
@@ -41,7 +41,7 @@ const Header = () => {
 
             <button className="menu-btn focus:outline-none focus:shadow-outline flex flex-wrap items-center">
               <div className="w-8 h-8 overflow-hidden rounded-full">
-                <Img className="w-full h-full object-cover" src="/img/user.svg" width={24} height={24} />
+                <Img className="w-full h-full object-cover" src="/img/user.svg" alt="User" width={24} height={24} />
               </div>
 
               <div className="ml-2 capitalize flex ">
@@ -241,7 +241,7 @@ const Header = () => {
               <a className="flex flex-row items-center justify-start px-4 py-4 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
 
                 <div className="w-10 h-10 rounded-full overflow-hidden mr-3 bg-gray-100 border border-gray-300">
-                  <Img className="w-full h-full object-cover" src="/img/user1.jpg" alt="" width={24} height={24}/>
+                  <Img className="w-full h-full object-cover" src="/img/user1.jpg" alt="User 1" width={24} height={24}/>
                 </div>
 
                 <div className="flex-1 flex flex-rowbg-green-100">
@@ -262,7 +262,7 @@ const Header = () => {
               <a className="flex flex-row items-center justify-start px-4 py-4 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
 
                 <div className="w-10 h-10 rounded-full overflow-hidden mr-3 bg-gray-100 border border-gray-300">
-                  <Img className="w-full h-full object-cover" src="/img/user2.jpg" alt="" width={24} height={24}/>
+                  <Img className="w-full h-full object-cover" src="/img/user2.jpg" alt="User 2" width={24} height={24}/>
                 </div>
 
                 <div className="flex-1 flex flex-rowbg-green-100">
@@ -283,7 +283,7 @@ const Header = () => {
               <a className="flex flex-row items-center justify-start px-4 py-4 block capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
 
                 <div className="w-10 h-10 rounded-full overflow-hidden mr-3 bg-gray-100 border border-gray-300">
-                  <Img className="w-full h-full object-cover" src="/img/user3.jpg" alt="" width={24} height={24} />
+                  <Img className="w-full h-full object-cover" src="/img/user3.jpg" alt="User 3" width={24} height={24} />
                 </div>
 
                 <div className="flex-1 flex flex-rowbg-green-100">
