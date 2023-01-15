@@ -34,7 +34,6 @@ module.exports = {
       },
       maxWidth: {},
       gap: {},
-      width: {},
     },
   },
   plugins: [
