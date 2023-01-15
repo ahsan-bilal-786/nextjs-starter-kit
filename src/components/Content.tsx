@@ -1,4 +1,5 @@
 import React from 'react';
+import Img from 'next/image';
 
 const Content = () => {
   return (
@@ -8,7 +9,7 @@ const Content = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-start">
               <a href="#" className="text-xl font-bold flex items-center lg:ml-2.5">
-                <img src="https://demo.themesberg.com/windster/images/logo.svg" className="h-6 mr-2" alt="Windster Logo" />
+                <Img src="https://demo.themesberg.com/windster/images/logo.svg" width={24} height={24} className="h-6 mr-2" alt="Windster Logo" />
                 <span className="self-center whitespace-nowrap">Windster</span>
               </a>
               <form action="#" method="GET" className="hidden lg:block lg:pl-32">
@@ -343,7 +344,7 @@ const Content = () => {
                       <li className="py-3 sm:py-4">
                         <div className="flex items-center space-x-4">
                           <div className="flex-shrink-0">
-                            <img className="h-8 w-8 rounded-full" src="https://demo.themesberg.com/windster/images/users/neil-sims.png" alt="Neil image" />
+                            <Img className="h-8 w-8 rounded-full" width={32} height={32} src="https://demo.themesberg.com/windster/images/users/neil-sims.png" alt="Neil image" />
                           </div>
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-medium text-gray-900 truncate">
@@ -361,7 +362,7 @@ const Content = () => {
                       <li className="py-3 sm:py-4">
                         <div className="flex items-center space-x-4">
                           <div className="flex-shrink-0">
-                            <img className="h-8 w-8 rounded-full" src="https://demo.themesberg.com/windster/images/users/bonnie-green.png" alt="Neil image" />
+                            <Img className="h-8 w-8 rounded-full" width={32} height={32} src="https://demo.themesberg.com/windster/images/users/bonnie-green.png" alt="Neil image" />
                           </div>
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-medium text-gray-900 truncate">
@@ -379,7 +380,7 @@ const Content = () => {
                       <li className="py-3 sm:py-4">
                         <div className="flex items-center space-x-4">
                           <div className="flex-shrink-0">
-                            <img className="h-8 w-8 rounded-full" src="https://demo.themesberg.com/windster/images/users/michael-gough.png" alt="Neil image" />
+                            <Img className="h-8 w-8 rounded-full" width={32} height={32}  src="https://demo.themesberg.com/windster/images/users/michael-gough.png" alt="Neil image" />
                           </div>
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-medium text-gray-900 truncate">
@@ -397,7 +398,7 @@ const Content = () => {
                       <li className="py-3 sm:py-4">
                         <div className="flex items-center space-x-4">
                           <div className="flex-shrink-0">
-                            <img className="h-8 w-8 rounded-full" src="https://demo.themesberg.com/windster/images/users/thomas-lean.png" alt="Neil image" />
+                            <Img className="h-8 w-8 rounded-full" width={32} height={32}  src="https://demo.themesberg.com/windster/images/users/thomas-lean.png" alt="Neil image" />
                           </div>
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-medium text-gray-900 truncate">
@@ -415,7 +416,7 @@ const Content = () => {
                       <li className="pt-3 sm:pt-4 pb-0">
                         <div className="flex items-center space-x-4">
                           <div className="flex-shrink-0">
-                            <img className="h-8 w-8 rounded-full" src="https://demo.themesberg.com/windster/images/users/lana-byrd.png" alt="Neil image" />
+                            <Img className="h-8 w-8 rounded-full" width={32} height={32}  src="https://demo.themesberg.com/windster/images/users/lana-byrd.png" alt="Neil image" />
                           </div>
                           <div className="flex-1 min-w-0">
                             <p className="text-sm font-medium text-gray-900 truncate">
