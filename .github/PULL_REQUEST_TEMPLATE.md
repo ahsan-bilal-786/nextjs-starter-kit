@@ -34,3 +34,4 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] Name of branch clarifies the purpose of this branch
 - [ ] I have added reviewer(s) in this pull request
 - [ ] All eslint rules are passing
+- [ ] I have added the screenshots with this PR.
